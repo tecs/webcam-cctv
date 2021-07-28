@@ -11,6 +11,8 @@ Webcam CCTV is a security camera system with web-based clients and dashboard
 - Light and responsive UI
 - Saves bandwidth when nobody's watching
 
+https://user-images.githubusercontent.com/4363111/127362889-e4cb5599-8ade-4a69-a3f2-67a41d6722b1.mp4
+
 ## Requirements
 To run, Webcam CCTV requires either Node.js or Docker installed
 
