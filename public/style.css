@@ -1,0 +1,55 @@
+.card-header {
+  position: relative;
+}
+
+.card-header > div {
+  position: absolute;
+  right: calc(1rem + 24px);
+  left: 1rem;
+  top: .5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-header::after {
+  content: ' ';
+  white-space: pre;
+}
+
+.card-img-bottom {
+  overflow: hidden;
+  width: 100%;
+  min-height: 180px;
+  position: relative;
+}
+
+.card-img-bottom > * {
+  display: block;
+  text-decoration: none;
+  font-size: 7em;
+  text-align: center;
+  width: 100%;
+}
+
+.card-img-bottom > a, .card-img-bottom > i {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.card-img-bottom > a {
+  color: #349c64 !important;
+}
+
+.card-img-bottom > .fa-plus-cirle {
+  color: #61686f !important;
+}
+
+.card-img-bottom > .fa-microphone, .card-img-bottom > .fa-microphone-slash {
+  color: #cacaca;
+}
+
+.card-img-bottom > .audiosource {
+  color: #bf313e !important;
+}
